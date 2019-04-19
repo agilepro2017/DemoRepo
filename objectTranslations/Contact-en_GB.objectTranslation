@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- New Individual Contact Fields --></label>
+        <name>NewIndividualContactFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Contact Image --></label>
+        <name>Contact_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- DeviceID --></label>
+        <name>DeviceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DeviceType --></label>
+        <name>DeviceType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance --></label>
+        <name>Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evening Appointment --></label>
+        <name>Evening_Appointment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FitbitToken --></label>
+        <name>FitbitToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal --></label>
+        <name>Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>HealthCloudGA__BirthDate__c</name>
+    </fields>
+    <fields>
+        <help>Count of referrals submitted in the last 6 months by this referring practitioner that have a status of “Closed-Converted”. </help>
+        <label><!-- Converted Referrals --></label>
+        <name>HealthCloudGA__ConvertedReferrals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Of Birth --></label>
+        <name>HealthCloudGA__CountryOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created from Lead --></label>
+        <name>HealthCloudGA__CreatedFromLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deceased Date --></label>
+        <name>HealthCloudGA__DeceasedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>Decline to Specify</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Female</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Male</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual ID --></label>
+        <name>HealthCloudGA__IndividualId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Type --></label>
+        <name>HealthCloudGA__IndividualType__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Name --></label>
+        <name>HealthCloudGA__PreferredName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Language --></label>
+        <name>HealthCloudGA__PrimaryLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer Score --></label>
+        <name>HealthCloudGA__ReferrerScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Language --></label>
+        <name>HealthCloudGA__SecondaryLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>Identifies the system that created the record and owns update rights to it. Defaults to Health1 for manually created records.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>Count of total number of referrals submitted in the last 6 months by this referring practitioner.</help>
+        <label><!-- Total Referrals --></label>
+        <name>HealthCloudGA__TotalReferrals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Caretaker --></label>
+        <name>Is_Caretaker__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Physician --></label>
+        <name>Is_Physican__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescription --></label>
+        <name>Prescription__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Speciality --></label>
+        <name>Speciality__c</name>
+        <picklistValues>
+            <masterLabel>Cleaning</masterLabel>
+            <translation><!-- Cleaning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endodontics (root canal)</masterLabel>
+            <translation><!-- Endodontics (root canal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oral Pathology</masterLabel>
+            <translation><!-- Oral Pathology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orthodontics</masterLabel>
+            <translation><!-- Orthodontics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Dentistry</masterLabel>
+            <translation><!-- Pediatric Dentistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periodontics</masterLabel>
+            <translation><!-- Periodontics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restorative treatments</masterLabel>
+            <translation><!-- Restorative treatments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialization --></label>
+        <name>Specialization__c</name>
+    </fields>
+    <fields>
+        <label><!-- avatar --></label>
+        <name>avatar__c</name>
+    </fields>
+    <fields>
+        <label><!-- averageDailySteps --></label>
+        <name>averageDailySteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- battery --></label>
+        <name>battery__c</name>
+    </fields>
+    <fields>
+        <label><!-- deviceVersion --></label>
+        <name>deviceVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- fitbitUserid --></label>
+        <name>fitbitUserid__c</name>
+    </fields>
+    <fields>
+        <label><!-- gender --></label>
+        <name>gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- macid --></label>
+        <name>macid__c</name>
+    </fields>
+    <fields>
+        <label><!-- weight --></label>
+        <name>weight__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Represents a Business --></description>
+        <label><!-- Business --></label>
+        <name>IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents an Individual --></description>
+        <label><!-- Individual --></label>
+        <name>IndustriesIndividual</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AddRelation --></label>
+        <name>HealthCloudGA__AddRelation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+</CustomObjectTranslation>

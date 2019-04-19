@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- New External Member​ --></label>
+        <name>QuickAddIndividual</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Benefits Covered --></label>
+        <name>Additional_Benefits_Covered__c</name>
+        <picklistValues>
+            <masterLabel>Bereavement Support</masterLabel>
+            <translation><!-- Bereavement Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Services</masterLabel>
+            <translation><!-- Lab Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Support</masterLabel>
+            <translation><!-- Legal Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Equipment Support</masterLabel>
+            <translation><!-- Medical Equipment Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse/Caretaker</masterLabel>
+            <translation><!-- Nurse/Caretaker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Consultation</masterLabel>
+            <translation><!-- Remote Consultation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spiritual/Social Services</masterLabel>
+            <translation><!-- Spiritual/Social Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tele Medicine</masterLabel>
+            <translation><!-- Tele Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alcohol Abuse --></label>
+        <name>Alcohol_Abuse__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Allergies --></label>
+        <name>Allergies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area of Residence --></label>
+        <name>Area_of_Residence__c</name>
+        <picklistValues>
+            <masterLabel>Large Metro</masterLabel>
+            <translation><!-- Large Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rural</masterLabel>
+            <translation><!-- Rural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Metro</masterLabel>
+            <translation><!-- Small Metro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auth Category --></label>
+        <name>Auth_Category__c</name>
+        <picklistValues>
+            <masterLabel>DME</masterLabel>
+            <translation><!-- DME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imaging</masterLabel>
+            <translation><!-- Imaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auth Type --></label>
+        <name>Auth_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioural therapy --></label>
+        <name>Behavioural_therapy__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CBT --></label>
+        <name>CBT__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CPT Code --></label>
+        <name>CPT_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proactive Intervention --></label>
+        <name>CarePro_Intervention__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB --></label>
+        <name>DB__c</name>
+    </fields>
+    <fields>
+        <label><!-- DND --></label>
+        <name>DND__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depression --></label>
+        <name>Depression__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disease Condition --></label>
+        <name>Disease__c</name>
+        <picklistValues>
+            <masterLabel>Bariatric Surgery</masterLabel>
+            <translation><!-- Bariatric Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic obstructive pulmonary disease (COPD)</masterLabel>
+            <translation><!-- Chronic obstructive pulmonary disease (COPD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complications</masterLabel>
+            <translation><!-- Complications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetic</masterLabel>
+            <translation><!-- Diabetic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elevated Blood Sugar</masterLabel>
+            <translation><!-- Elevated Blood Sugar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geriatric Care</masterLabel>
+            <translation><!-- Geriatric Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heart Patient</masterLabel>
+            <translation><!-- Heart Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartburn</masterLabel>
+            <translation><!-- Heartburn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Blood Pressure</masterLabel>
+            <translation><!-- High Blood Pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insulin Pump With CGM</masterLabel>
+            <translation><!-- Insulin Pump With CGM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morbid Obesity</masterLabel>
+            <translation><!-- Morbid Obesity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opioid Addiction</masterLabel>
+            <translation><!-- Opioid Addiction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prone to Stress</masterLabel>
+            <translation><!-- Prone to Stress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ER Visit --></label>
+        <name>ER_Visit__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Span --></label>
+        <name>Eligibility_Span__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible --></label>
+        <name>Eligible__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Find_Near_By --></label>
+        <name>FindNearBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fitbit Access Token --></label>
+        <name>Fitbit_Access_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fitbit Refresh Token --></label>
+        <name>Fitbit_Refresh_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>others</masterLabel>
+            <translation><!-- others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>適用於此病患的健康照護計畫</help>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- PatientAccounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>HealthCloudGA__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Type --></label>
+        <name>HealthCloudGA__EnrollmentType__c</name>
+        <picklistValues>
+            <masterLabel>Dual</masterLabel>
+            <translation>雙重</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESRD</masterLabel>
+            <translation>ESRD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBDual</masterLabel>
+            <translation>FBDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonDual</masterLabel>
+            <translation>NonDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBDual</masterLabel>
+            <translation>PBDual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual ID --></label>
+        <name>HealthCloudGA__IndividualId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Type --></label>
+        <name>HealthCloudGA__IndividualType__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>群組</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>個別</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>表示病患是否在機構中。</help>
+        <label><!-- Institution --></label>
+        <name>HealthCloudGA__Institution__c</name>
+    </fields>
+    <fields>
+        <help>表示病患是否符合低收入條件。</help>
+        <label><!-- Low Income --></label>
+        <name>HealthCloudGA__LowIncome__c</name>
+    </fields>
+    <fields>
+        <help>表示病患是否符合醫療補助計畫資格。</help>
+        <label><!-- Medicaid Eligibility Status --></label>
+        <name>HealthCloudGA__MedicaidEligibilityStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <help>新成員或前一年延續的成員。</help>
+        <label><!-- Medicare Enrollee --></label>
+        <name>HealthCloudGA__MedicareEnrollee__c</name>
+        <picklistValues>
+            <masterLabel>Continued</masterLabel>
+            <translation>繼續</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Enrollee</masterLabel>
+            <translation>新註冊者</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OREC --></label>
+        <name>HealthCloudGA__OREC__c</name>
+        <picklistValues>
+            <masterLabel>Age</masterLabel>
+            <translation>帳齡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>殘疾</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payer Type --></label>
+        <name>HealthCloudGA__PayerType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>HealthCloudGA__PrimaryContact__c</name>
+        <relationshipLabel><!-- Accounts (Primary Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>識別已建立記錄並擁有該記錄更新權的系統。預設值為代表手動建立記錄的「健康 1」。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxId --></label>
+        <name>HealthCloudGA__TaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Plan ID --></label>
+        <name>Helath_Plan_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Plan --></label>
+        <name>Helath_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Illegal drug abuse --></label>
+        <name>Illegal_drug_abuse__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsMedicare --></label>
+        <name>IsMedicare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jawbone Access Token --></label>
+        <name>Jawbone_Access_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jawbone Refresh Token --></label>
+        <name>Jawbone_Refresh_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jawbone XID --></label>
+        <name>Jawbone_XID__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOB --></label>
+        <name>LOB__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid</masterLabel>
+            <translation><!-- Medicaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Level I</masterLabel>
+            <translation><!-- Level I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level II</masterLabel>
+            <translation><!-- Level II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level III</masterLabel>
+            <translation><!-- Level III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level IV</masterLabel>
+            <translation><!-- Level IV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- MME Calculator --></label>
+        <name>MME_Calculator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codeine --></label>
+        <name>MME_Codeine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fentanyl (mcg/hr) --></label>
+        <name>MME_Fentanyl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hydrocodone --></label>
+        <name>MME_Hydrocodone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hydromorphone --></label>
+        <name>MME_Hydromorphone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Methadone --></label>
+        <name>MME_Methadone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Morphine --></label>
+        <name>MME_Morphine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oxycodone --></label>
+        <name>MME_Oxycodone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oxymorphone --></label>
+        <name>MME_Oxymorphone__c</name>
+    </fields>
+    <fields>
+        <label><!-- MME Score --></label>
+        <name>MME_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tramadol --></label>
+        <name>MME_Tramadol__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPR Status --></label>
+        <name>MPR_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- MPR --></label>
+        <name>MPR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping_Address --></label>
+        <name>Mapping_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mapping_Status --></label>
+        <name>Mapping_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medicaid --></label>
+        <name>Medicaid__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medication --></label>
+        <name>Medication__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member Benefits Plan --></label>
+        <name>Member_Benifit_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member ID --></label>
+        <name>Member_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>Number_of_Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nurse --></label>
+        <name>Nurse__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opioid Risk --></label>
+        <name>Opioid_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opioid Score --></label>
+        <name>Opioid_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDC Status --></label>
+        <name>PDC_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDC --></label>
+        <name>PDC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peg Risk Score --></label>
+        <name>Peg_Risk_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physician --></label>
+        <name>Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preadolescent Sexual Abuse --></label>
+        <name>Preadolescent_Sexual_Abuse__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred contact mode --></label>
+        <name>Preferred_contact_mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescription drug abuse --></label>
+        <name>Prescription_drug_abuse__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Accout id --></label>
+        <name>Previous_Accout_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Diag Code --></label>
+        <name>Primary_Diag_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem --></label>
+        <name>Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk factor --></label>
+        <name>Risk_factor__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service From Date --></label>
+        <name>Service_From_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social Security Number --></label>
+        <name>Social_Security_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Units --></label>
+        <name>Total_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- mRNA Analysis --></label>
+        <name>mRNA_Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Profile Picture --></label>
+        <name>profilePic__c</name>
+    </fields>
+    <fields>
+        <label><!-- schizophrenia --></label>
+        <name>schizophrenia__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Account --></label>
+        <name>Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Corporate Record Type --></label>
+        <name>Corporate_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Individual Record Type --></label>
+        <name>Individual_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a business or an organization --></description>
+        <label><!-- Business --></label>
+        <name>IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Household --></description>
+        <label><!-- Household --></label>
+        <name>IndustriesHousehold</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents an Individual --></description>
+        <label><!-- Individual --></label>
+        <name>IndustriesIndividual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Payer --></description>
+        <label><!-- Payer --></label>
+        <name>IndustriesPayer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Member --></label>
+        <name>Member</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

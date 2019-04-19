@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Coordinator Contact --></label>
+        <name>HealthCloudGA__AssignCareCoordinatorContact__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Coordinator User --></label>
+        <name>HealthCloudGA__AssignCareCoordinatorUser__c</name>
+        <relationshipLabel><!-- Leads (Care Coordinator User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>HealthCloudGA__BirthDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Record Type Name --></label>
+        <name>HealthCloudGA__CarePlanRecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Record Type Namespace --></label>
+        <name>HealthCloudGA__CarePlanRecordTypeNamespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created from Lead --></label>
+        <name>HealthCloudGA__CreatedFromLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis --></label>
+        <name>HealthCloudGA__Diagnosis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Group ID --></label>
+        <name>HealthCloudGA__InsuranceGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Member ID --></label>
+        <name>HealthCloudGA__InsuranceMemberId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Type --></label>
+        <name>HealthCloudGA__InsuranceType__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>営利保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid</masterLabel>
+            <translation>医療扶助受給</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation>Medicare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-pay</masterLabel>
+            <translation>自己負担</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsMarkedForPatientConversion --></label>
+        <name>HealthCloudGA__IsMarkedForPatientConversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out Of Network --></label>
+        <name>HealthCloudGA__IsOutOfNetwork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Insurance --></label>
+        <name>HealthCloudGA__PrimaryInsurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>HealthCloudGA__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Emergent</masterLabel>
+            <translation>緊急</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation>ルーチン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation>緊急</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Out of Network Referral --></label>
+        <name>HealthCloudGA__ReasonForOutOfNetworkReferral__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Not Accepted</masterLabel>
+            <translation>保険却下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Provider Availability</masterLabel>
+            <translation>提供者限定利用度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Preference</masterLabel>
+            <translation>患者プリファレンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Preference</masterLabel>
+            <translation>提供者プリファレンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Not Offered</masterLabel>
+            <translation>サービス提供なし</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Referral --></label>
+        <name>HealthCloudGA__ReasonforReferral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred To Organization --></label>
+        <name>HealthCloudGA__ReferredToOrganization__c</name>
+        <relationshipLabel><!-- Leads (Referred To Organization) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred To Practitioner --></label>
+        <name>HealthCloudGA__ReferredToPractitioner__c</name>
+        <relationshipLabel><!-- Leads (Referred To Practitioner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred To User --></label>
+        <name>HealthCloudGA__ReferredToUser__c</name>
+        <relationshipLabel><!-- Leads (Referred To User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referring Organization --></label>
+        <name>HealthCloudGA__ReferringOrganization__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referring Practitioner --></label>
+        <name>HealthCloudGA__ReferringPractitioner__c</name>
+        <relationshipLabel><!-- Leads (Referring Practitioner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referring User --></label>
+        <name>HealthCloudGA__ReferringUser__c</name>
+        <relationshipLabel><!-- Leads (Referring User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>HealthCloudGA__RelatedAccount__c</name>
+        <relationshipLabel><!-- Leads (Related Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>レコードを作成し、レコードに対する更新権を持つシステムを示します。手動で作成されたレコードの場合、デフォルトは Health1 です。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty --></label>
+        <name>HealthCloudGA__Specialty__c</name>
+        <picklistValues>
+            <masterLabel>Cardiology</masterLabel>
+            <translation>心臓</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurosurgery</masterLabel>
+            <translation>神経外科</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncology</masterLabel>
+            <translation>腫瘍科</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orthopedics</masterLabel>
+            <translation>整形外科</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type Of Service --></label>
+        <name>HealthCloudGA__TypeOfService__c</name>
+        <picklistValues>
+            <masterLabel>2nd Opinion</masterLabel>
+            <translation>セカンドオピニオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultation</masterLabel>
+            <translation>コンサルティング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up</masterLabel>
+            <translation>経過観察</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Services</masterLabel>
+            <translation>臨床検査サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (please specify in comments)</masterLabel>
+            <translation>その他 (コメントに具体的に記載してください)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radiology Services</masterLabel>
+            <translation>放射線サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery</masterLabel>
+            <translation>手術</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation><!-- GC3000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SICCode__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Patient record type --></description>
+        <label><!-- Patient --></label>
+        <name>Patient</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient Referral --></label>
+        <name>PatientReferral</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Convert_Leads --></label>
+        <name>HealthCloudGA__Convert_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+</CustomObjectTranslation>

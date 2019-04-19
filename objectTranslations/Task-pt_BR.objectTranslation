@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HcCarePlanTaskFields --></label>
+        <name>HcCarePlanTaskFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HC Task List --></label>
+        <name>HcTaskList</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Goal this task is meant to address --></help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Problem this task is mean to address --></help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abandoned Call --></label>
+        <name>ringdna__Abandoned_Call__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the Automated Voicemail that was left during the outbound call --></help>
+        <label><!-- Automated Voicemail Used --></label>
+        <name>ringdna__Automated_Voicemail_Used__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked this indicates that an Automated Voicemail was left during the outbound call --></help>
+        <label><!-- Automated Voicemail? --></label>
+        <name>ringdna__Automated_Voicemail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Connected? --></label>
+        <name>ringdna__Call_Connected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Direction --></label>
+        <name>ringdna__Call_Direction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Disposition --></label>
+        <name>ringdna__Call_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Duration --></label>
+        <name>ringdna__Call_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Duration (min) --></label>
+        <name>ringdna__Call_Duration_min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Hour Of Day (Local) --></label>
+        <name>ringdna__Call_Hour_Of_Day_Local__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Rating --></label>
+        <name>ringdna__Call_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Recording URL --></label>
+        <name>ringdna__Call_Recording_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Recording --></label>
+        <name>ringdna__Call_Recording__c</name>
+    </fields>
+    <fields>
+        <label><!-- Called Back? --></label>
+        <name>ringdna__Called_Back__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created by RingDNA --></label>
+        <name>ringdna__Created_by_RingDNA__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the Local Presence number that was used to place the outbound call --></help>
+        <label><!-- Local Presence # --></label>
+        <name>ringdna__Local_Presence_Num__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked this indicates that Local Presence was used to make the outbound call --></help>
+        <label><!-- Local Presence? --></label>
+        <name>ringdna__Local_Presence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Hold Time --></label>
+        <name>ringdna__Queue_Hold_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>ringdna__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor Notes --></label>
+        <name>ringdna__Supervisor_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked this indicates that this call activity was created as the result of an inbound call that went to VM --></help>
+        <label><!-- Voicemail --></label>
+        <name>ringdna__Voicemail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter email addresses of all other participants separated by a comma [,]. --></help>
+        <label><!-- Send Email to External Attendees --></label>
+        <name>zoom_app__Additional_Emails__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the scheduled duration of the meeting in &quot;minutes&quot;, as a number.
+Ex: 30 --></help>
+        <label><!-- Customer Meeting Duration --></label>
+        <name>zoom_app__Customer_Duration_of_Meeting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the starting time of the meeting as per customer. --></help>
+        <label><!-- Customer Start Time --></label>
+        <name>zoom_app__Customer_Start_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the proper time zone location for the customer. DST will be managed automatically. --></help>
+        <label><!-- Customer Time Zone --></label>
+        <name>zoom_app__Customer_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Let users join the meeting before the host arrives --></help>
+        <label><!-- Join before host --></label>
+        <name>zoom_app__Join_before_host__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tick this to make this as a zoom &amp; Calender event. This option will schedule a zoom meeting and put the meeting link in the description. --></help>
+        <label><!-- Schedule a Zoom Meeting --></label>
+        <name>zoom_app__Make_it_Zoom_Meeting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use my Zoom personal meeting id --></help>
+        <label><!-- Use my Zoom PMI --></label>
+        <name>zoom_app__Use_personal_Zoom_meeting_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoom Event --></label>
+        <name>zoom_app__Zoom_Event__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- CTI --></label>
+        <name>CTI</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Task related to healthcare plan --></description>
+        <label><!-- Care Plan Task --></label>
+        <name>CarePlanTask</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Email task *** carePlus *** --></description>
+        <label><!-- Email --></label>
+        <name>Email</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Log a Call task *** carePlus *** --></description>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Video Call task *** carePlus *** --></description>
+        <label><!-- Video Call --></label>
+        <name>Video_Call</name>
+    </recordTypes>
+</CustomObjectTranslation>
